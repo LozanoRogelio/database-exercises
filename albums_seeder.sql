@@ -1,3 +1,5 @@
+use rogelio;
+
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES  ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop'),
         ('AC/DC', 'Back in Black', '1982', 30.1, 'Pop'),

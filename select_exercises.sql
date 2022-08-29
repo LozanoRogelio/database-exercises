@@ -1,3 +1,5 @@
+use rogelio;
+
 SELECT name FROM albums WHERE artist = 'Pink Floyd';
 -- Output
 -- name
