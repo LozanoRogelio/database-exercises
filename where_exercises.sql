@@ -20,8 +20,8 @@ where last_name LIKE 'E%'
    OR last_name LIKE '%e';
 
 select * from employees
-where last_name LIKE 'E%'
-AND last_name LIKE '%e';
+where last_name LIKE 'E%e';
+
 
 select * from employees
 where last_name LIKE '%q%'
