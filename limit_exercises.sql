@@ -1,4 +1,5 @@
 use employees;
+
 # 2
 SELECT DISTINCT last_name
 FROM employees
