@@ -23,7 +23,7 @@ where year(hire_date) BETWEEN 1990 and 2000
   and day(birth_date) = 25
 order by hire_date DESC, birth_date ASC;
 # 6
-select datediff(curdate(), hire_date)
+select datediff(curdate(), hire_date) as hire_days
 from employees
 where year(hire_date) BETWEEN 1990 and 2000
   and month(birth_date) = 12
