@@ -1,5 +1,6 @@
 use employees;
 
+
 # 2
 SELECT DISTINCT last_name
 FROM employees
@@ -8,15 +9,14 @@ limit 10;
 # 3
 SELECT DISTINCT emp_no
 FROM salaries
-where salary
 order by salary desc
 limit 5;
 # 4
 SELECT DISTINCT emp_no
 FROM salaries
 order by salary desc
-limit 4
-offset 46;
+limit 5
+offset 45;
 
 
 
